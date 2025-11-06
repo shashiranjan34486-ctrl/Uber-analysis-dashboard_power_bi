@@ -64,3 +64,13 @@ This page serves as a granular data table to provide in-depth details and suppor
     * Extensive use of **Bookmarks** to create pop-up windows and reset filters.
     * **Drill-Through** configuration to connect summary visuals to the detail table.
     * **Conditional Formatting** in the vehicle analysis matrix to improve readability.
+---
+
+## 🧑‍💻 Author
+
+**Shashi Ranjan**  
+📍 Intern at HFFC  
+💼 Exploring roles in Business Analytics & Data Analysis  
+📧 www.linkedin.com/in/shashi-ranjan-7b6097282
+
+---
