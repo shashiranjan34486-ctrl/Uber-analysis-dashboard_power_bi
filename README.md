@@ -67,7 +67,7 @@ This dashboard provides a high-level summary of key performance indicators and c
     * **"Download Raw Data" Button:** An export button using Power Automate or built-in functionality .
 
 ### 🔹 Overview Dashboard
-![Overview Dashboard]("C:\Users\ASUS\Pictures\Screenshots\Screenshot 2026-01-29 011058.png")
+![Overview Dashboard](C:\Users\ASUS\Pictures\Screenshots\Screenshot 2026-01-29 011058.png)
 
 
 ### 2. Dashboard 2: Time Analysis 
