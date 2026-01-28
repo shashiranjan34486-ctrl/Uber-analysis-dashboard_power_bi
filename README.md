@@ -1,4 +1,4 @@
-# Uber Trip Analysis Dashboard (Power BI)
+# Uber Trip Analysis (AWS + Snowflake + Power BI)
 
 ## Project Objective
 This project demonstrates an **end-to-end data analytics pipeline** using **AWS, Snowflake, and Power BI**.  
