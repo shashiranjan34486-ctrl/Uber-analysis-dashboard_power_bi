@@ -64,11 +64,11 @@ This dashboard provides a high-level summary of key performance indicators and c
     * **Slicers:** Interactive filters for Date, City, etc..
     * **"Data Details" Bookmark:** A button that displays a pop-up window explaining key metrics and data sources.
     * **"Clear Filters" Button:** A single-click button to reset all slicers on the page.
-    * **"Download Raw Data" Button:** An export button using Power Automate or built-in functionality .
+    * **"Download Raw Data" Button:** An export button using Power Automate or built-in
+
 
 ### 🔹 Overview Dashboard
-![Overview Dashboard](Screenshot 2026-01-29 011058.png)
-
+functionality .<img width="1918" height="948" alt="Screenshot 2026-01-29 011058" src="https://github.com/user-attachments/assets/ceab70a9-1d49-410a-8355-5678b2dec8a3" />
 
 ### 2. Dashboard 2: Time Analysis 
 This dashboard focuses on identifying temporal patterns in ride demand to optimize driver availability and pricing.
