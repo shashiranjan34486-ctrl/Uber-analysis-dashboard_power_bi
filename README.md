@@ -35,7 +35,15 @@ Uber trip data is stored in **Amazon S3**, loaded into **Snowflake** using exter
   - `LOCATION_TABLE`
   - `UBER_TRIP_DETAILS`
 
- 
+### 🔹 AWS S3 – Raw Data Storage
+<img width="1919" height="971" alt="Screenshot 2026-01-29 004554" src="https://github.com/user-attachments/assets/95283096-338e-4377-aa79-08fdace09ae9" />
+
+### 🔹 Snowflake – Storage Integration with AWS
+<img width="1896" height="964" alt="Screenshot 2026-01-29 004451" src="https://github.com/user-attachments/assets/faa53519-63aa-400f-9df3-13f814bec371" />
+
+### 🔹 Snowflake – Data Loading Using COPY INTO
+ <img width="1915" height="966" alt="Screenshot 2026-01-29 004514" src="https://github.com/user-attachments/assets/0fdfdcfd-52fb-4fd0-b893-f4b6a7580916" />
+
 ## Dashboards & Key Features
 
 This Power BI report is divided into three main pages:
@@ -68,7 +76,7 @@ This dashboard provides a high-level summary of key performance indicators and c
 
 
 ### 🔹 Overview Dashboard
-functionality .<img width="1918" height="948" alt="Screenshot 2026-01-29 011058" src="https://github.com/user-attachments/assets/ceab70a9-1d49-410a-8355-5678b2dec8a3" />
+<img width="1918" height="948" alt="Screenshot 2026-01-29 011058" src="https://github.com/user-attachments/assets/ceab70a9-1d49-410a-8355-5678b2dec8a3" />
 
 ### 2. Dashboard 2: Time Analysis 
 This dashboard focuses on identifying temporal patterns in ride demand to optimize driver availability and pricing.
@@ -79,12 +87,19 @@ This dashboard focuses on identifying temporal patterns in ride demand to optimi
     * **Area Chart (10-Min Intervals):** Analyzes ride demand in 10-minute buckets to pinpoint exact peak times.
     * **Line Chart (By Day Name):** Compares booking trends across different days of the week (e.g., weekday vs. weekend).
 
+### 🔹 Time Analysis Dashboard
+<img width="1917" height="978" alt="Screenshot 2026-01-29 011312" src="https://github.com/user-attachments/assets/70ceedf5-1b1c-496f-9281-2a6ded674ee5" />
+
+
 ### 3. Dashboard 3: Details Tab 
 This page serves as a granular data table to provide in-depth details and support drill-through analysis.
 
 * **Grid Table:** A detailed table displaying key fields for individual trips.
 * **Drill-Through Functionality:** Users can right-click any data point on other dashboards (e.g., a specific hour on the heatmap) and "Drill Through" to this page. The table will automatically be filtered to show only the records related to that selection .
 * **"View Full Data" Bookmark:** A toggle button that allows the user to remove the drill-through filters and view the complete, unfiltered dataset .
+
+### 🔹 Detailed View Dashboard
+<img width="1919" height="978" alt="Screenshot 2026-01-29 011359" src="https://github.com/user-attachments/assets/ca25c49b-c0f6-442b-9c0c-6cd03932614b" />
 
 ---
 
