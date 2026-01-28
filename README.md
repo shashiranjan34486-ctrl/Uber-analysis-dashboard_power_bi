@@ -1,10 +1,41 @@
 # Uber Trip Analysis Dashboard (Power BI)
 
 ## Project Objective
-The primary goal of this project is to analyze Uber trip data using Power BI to gain actionable insights into booking trends, revenue generation, and trip efficiency. This dashboard is designed to help stakeholders make data-driven decisions to optimize pricing, improve customer satisfaction, and enhance operational efficiency.
+This project demonstrates an **end-to-end data analytics pipeline** using **AWS, Snowflake, and Power BI**.  
+Uber trip data is stored in **Amazon S3**, loaded into **Snowflake** using external stages and storage integration, and finally visualized in **Power BI dashboards** for business insights into booking trends, revenue generation, and trip efficiency. This dashboard is designed to help stakeholders make data-driven decisions to optimize pricing, improve customer satisfaction, and enhance operational efficiency.
+
+---
+## Tech Stack Used
+
+- **AWS S3** – Cloud storage for raw CSV files  
+- **AWS IAM** – Role-based access for Snowflake integration  
+- **Snowflake** – Cloud data warehouse for data loading & transformation  
+- **SQL** – Table creation and data loading using `COPY INTO`  
+- **Power BI** – Data modeling and interactive dashboard creation  
 
 ---
 
+## Architecture Flow
+
+1. **CSV Files** uploaded to **Amazon S3**
+2. **Snowflake Storage Integration** created using AWS IAM Role
+3. **External Stage** created in Snowflake pointing to S3
+4. Data loaded into Snowflake tables using `COPY INTO`
+5. **Power BI** connected to Snowflake for dashboard creation
+
+
+## 🧊 Snowflake Implementation
+
+### Key Snowflake Objects Used
+- **Storage Integration** (AWS S3)
+- **External Stage**
+- **Database:** `POWERBI`
+- **Schema:** `POWERBI_DATA`
+- **Tables:**
+  - `LOCATION_TABLE`
+  - `UBER_TRIP_DETAILS`
+
+ 
 ## Dashboards & Key Features
 
 This Power BI report is divided into three main pages:
@@ -34,6 +65,10 @@ This dashboard provides a high-level summary of key performance indicators and c
     * **"Data Details" Bookmark:** A button that displays a pop-up window explaining key metrics and data sources.
     * **"Clear Filters" Button:** A single-click button to reset all slicers on the page.
     * **"Download Raw Data" Button:** An export button using Power Automate or built-in functionality .
+
+### 🔹 Overview Dashboard
+![Overview Dashboard]("C:\Users\ASUS\Pictures\Screenshots\Screenshot 2026-01-29 011058.png")
+
 
 ### 2. Dashboard 2: Time Analysis 
 This dashboard focuses on identifying temporal patterns in ride demand to optimize driver availability and pricing.
