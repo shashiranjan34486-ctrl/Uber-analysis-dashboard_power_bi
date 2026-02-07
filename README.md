@@ -126,7 +126,7 @@ This page serves as a granular data table to provide in-depth details and suppor
 ## 🧑‍💻 Author
 
 **Shashi Ranjan**  
-📍 Intern at HFFC  
+📍 EX-Intern at HFFC  
 💼 Exploring roles in Business Analytics & Data Analysis  
 📧 www.linkedin.com/in/shashi-ranjan-7b6097282
 
